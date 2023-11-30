@@ -14,7 +14,6 @@ public class EffortData {
     private final StringProperty deltaTime;
     private final StringProperty user;
     private final StringProperty id;
-    //Formats data into simpleStrings to work with table.
     public EffortData(String number, String date, String startTime, String stopTime, String deltaTime, String lifeCycleStep, String effortCategory, String deliverable, String user,String id) {
         this.number = new SimpleStringProperty(number);
         this.date = new SimpleStringProperty(date);
@@ -27,10 +26,6 @@ public class EffortData {
         this.user = new SimpleStringProperty(user);
         this.id = new SimpleStringProperty(id);
     }
-
-    // Getters for values - keep in mind these are not strings. 
-    	//Once database is set up, any instances of these not in the table itself should pull from the database directly
-
     public StringProperty numberProperty() {
         return number;
     }
