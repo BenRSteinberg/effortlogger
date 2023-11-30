@@ -1,0 +1,6 @@
+.combo-box {
+    -fx-font-family: "PT Sans Caption";
+    -fx-font-size: 14px;
+    -fx-background-color: #06c8a1; /* Replace with your desired background color */
+    -fx-text-fill: #D0FFF6; /* Set the text color */
+}
